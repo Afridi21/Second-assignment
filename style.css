@@ -12,6 +12,10 @@ body{
 img{
     width: 100%;
 }
+.width img{
+        position: relative;
+        animation: imageTransition 5s ease-in infinite;
+       }
 /* css */
 .cup{
     max-width: 1240px;
@@ -42,9 +46,7 @@ img{
     width: 80%;
     margin: auto;
 }
-/* =================================
-============= Header css =================
-====================================*/
+/* Header  */
  
    .banner{
     background: #161616;
@@ -52,8 +54,8 @@ img{
     display: flex;
     color: #fff;
 
-   } 
-.part-2 a{
+   }
+   .part-2 a{
     text-decoration: none;
     color: #ffffff;
     font-size: xx-large;
@@ -100,7 +102,6 @@ a.buttons.active {
     border: none;
     color: #fff;
 }
-/* asside end */
 .buttons{
     text-decoration: none;
     color: #000;
@@ -146,6 +147,41 @@ color: #fff;
     width: 24px;
     height: 24px;
 }
+/* Upcoming-match--------- */
+#war .image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#war .image img{
+    width: 38%;
+    
+}
+
+#war h6 {
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.images:hover .image img{
+
+        transform: scale(1.1);
+        border-radius: 5px;
+
+}
+.text {
+    text-align: center;
+    padding: 10px;
+  
+    margin-top: 20px;
+}
+.text p {
+    color: #4D4D4D;
+   
+    padding-top: 5px;
+}
+/* upcoming-match finished----------- */
+
 /* footer start */
 #footer {
     background: #000;
