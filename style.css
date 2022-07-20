@@ -60,7 +60,7 @@ img{
     background-color: #D00000;
     border-radius: 10px;
     width: 206px;
-height: 56px;
+    height: 56px;
 }
 
 .part-2 h1 {
@@ -231,7 +231,10 @@ color: #fff;
         
     }
     .button {
-       display: flex;
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       grid-gap: 5px;
+       
     }
     .part-2 h1 {
         font-size: 2em;
