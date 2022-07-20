@@ -14,9 +14,8 @@ img{
 }
 .width img{
         position: relative;
-        animation: imageTransition 5s ease-in infinite;
+        animation: imageTransition 5s ease-in-out infinite;
        }
-/* css */
 .cup{
     max-width: 1240px;
     margin: auto;
