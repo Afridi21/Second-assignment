@@ -181,3 +181,62 @@ color: #fff;
    
 }
 /* footer end */
+/* ----------------Repo start------------- */
+/* Tablet */
+@media (max-width:768px) {
+    .second section {
+        grid-template-columns: auto;
+    }
+    .matches{
+        grid-template-columns: auto;
+    }
+     .See {
+      
+        grid-template-columns: repeat(2,1fr);    
+    }
+    .button {
+       
+        display: block;
+    }
+
+    .menu {
+      
+        height: auto;
+    }
+    .ml {
+        flex-direction: column;
+        align-items: center;
+    }
+        .part-2 h1 {
+            font-size: 2em;
+            
+        }
+        .part-2 p {
+            font-size: .8em;
+            
+        }
+
+   }
+   /* Moblie */
+@media (max-width:576px) {
+    .See {
+      
+        grid-template-columns: repeat(1,1fr);
+        margin: 50px auto;;
+        width: 90%;
+       
+    }
+    .part-2 p {
+        font-size: .8em;
+        
+    }
+    .button {
+       display: flex;
+    }
+    .part-2 h1 {
+        font-size: 2em;
+        
+    }
+}
+
+/* repo finished */
