@@ -299,6 +299,13 @@ color: #fff;
         font-size: .8em;
         
     }
+    .part-2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner{
+        flex-direction: column;
+    }
     .button {
        display: grid;
        grid-template-columns: repeat(3,1fr);
