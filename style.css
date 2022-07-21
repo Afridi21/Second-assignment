@@ -12,10 +12,6 @@ body{
 img{
     width: 100%;
 }
-.width img{
-        position: relative;
-        animation: imageTransition 5s ease-in-out infinite;
-       }
 .cup{
     max-width: 1240px;
     margin: auto;
@@ -68,7 +64,7 @@ img{
     font-size: 54px;
     margin-bottom: 8px;
 }
-
+/* Header finish */
 /* second section css */
 .second-section{
     margin-top: 200px;
@@ -146,6 +142,7 @@ color: #fff;
     width: 24px;
     height: 24px;
 }
+/* Second section finished */
 /* Upcoming-match--------- */
 #war .image{
     display: flex;
@@ -231,7 +228,7 @@ color: #fff;
   .link{
         position: relative;
   animation-name: linktranscation ;
-  animation-duration: 8s;
+  animation-duration: 4s;
     }
   @keyframes linktranscation {
     0%   {background-color:red; left:0px; right:0px;}
@@ -239,6 +236,20 @@ color: #fff;
     50%  {background-color:blue; left:50px; right:50px;}
     100% {background-color:red; left:0px; right:0px;}
   }
+  @keyframes imageTransition {
+    0%{
+      opacity: 0;
+  } 50%{
+      opacity: 1;
+  } 100%{
+      opacity: 0;
+}
+  }
+.width img{
+    position: relative;
+    animation: imageTransition 5s ease-in-out infinite;
+   }
+   /* Animation finish */
 /* ----------------Repo start------------- */
 /* Tablet */
 @media (max-width:768px) {
